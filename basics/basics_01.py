@@ -1,17 +1,15 @@
-# magic square problem
-#sum of every row, column and diagonal is the same
+# x = 10
+# print(id(x))
+# print(x)
+# x = x + 2
+# print(id(x))
+# print(x)
 
-def magic_Square(n):
+# mutable 
+# myList = [1,2,3]
+# print(id(myList))
+# print(myList)
+# myList.append(4)
+# print(id(myList))
+# print(myList)
 
-    magicSqaure = []
-    for i in range(n):
-        l = []
-        for j in range(n):
-            l.append(0)
-        magicSqaure.append(l)
-
-    for i in range(n):
-        for j in range(n):
-            print(magicSqaure[i][j], end=" ")
-        print()
-magic_Square(3)

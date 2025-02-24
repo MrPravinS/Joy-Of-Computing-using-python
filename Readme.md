@@ -28,3 +28,9 @@
         print(id(my_list))  # Memory address before modification
         my_list.append(4)  
         print(id(my_list))  # Memory address remains the same (modified in place)
+
+# Data Types 
+ - Numbers : 1234 , 3.14, 0b11, Decimal(),Fraction()
+ - String: "spam", "Bob's"
+ - List : [1,2,3,4]  , list(range(10))
+ - Tuple : (1,"spam",4, "U-")

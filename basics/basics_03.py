@@ -47,6 +47,22 @@ Write a func that takews mutipl;e parameters and return their sum
 
 # default parameter
 
-def defualtPara(name="Pravin"):
-     return "Hello, "+name+" !"
-print(defualtPara())
+# def defualtPara(name="Pravin"):
+#      return "Hello, "+name+" !"
+# print(defualtPara())
+
+
+#  lambda function
+#  varName = lambda varName : code
+
+# cube = lambda x : x ** 3
+# print(cube(2))
+
+#  *args  => take multiple args and perform task and create a tuple = (args)
+
+def sumAll(*args):
+    print(args)
+    for i in args:
+        print(i * 3)
+    return sum(args)
+print(sumAll(2,3))

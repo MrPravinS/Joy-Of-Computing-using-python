@@ -60,9 +60,37 @@ Write a func that takews mutipl;e parameters and return their sum
 
 #  *args  => take multiple args and perform task and create a tuple = (args)
 
-def sumAll(*args):
-    print(args)
-    for i in args:
-        print(i * 3)
-    return sum(args)
-print(sumAll(2,3))
+# def sumAll(*args):
+#     # print(args)
+#     for i in args:
+#         print(i * 3)
+#     return sum(args)
+# print(sumAll(2,3,4))
+
+# **kwargs
+# def keyValuePair(**kwargs):
+#     for key,value in kwargs.items():
+#         print(f"{key}: {value}")
+# keyValuePair(name="pravin",age=23)
+# keyValuePair(name="ajay",age=22)
+
+
+
+# def varName(**kwargs):
+#         for key, value in kwargs.items():
+#                 print(f"{key}: {value}")
+# varName(name="pravin",age=133)
+
+
+# def keyValue(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}:{value}")
+# keyValue(age=133,lastname="shegamwar")
+
+def factorial(n):
+    if n == 0 :
+        return 1
+    else:
+
+        return n * factorial(n - 1)
+print(factorial(4))

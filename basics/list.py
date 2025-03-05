@@ -24,12 +24,12 @@ newList = list([1,2,3,4,5,6,7,8,9])
 # newList[1:3] = [10,30]
 
 extendItem = [0,9,7,5]
-# o add an item to the end of the list, use the append() method:
+#  add an item to the end of the list, use the append() method:
 newList.append(30)
 newList.insert(0,10)
 newList.insert(1,20)
-newList.extend(extendItem)
-print(newList)
+newList.extend(extendItem)  # merg list
+# print(newList)
 sum = 0 
 # if 0 in newList :
     
@@ -37,3 +37,50 @@ sum = 0
 #     # print(newList[i])
 #     sum += newList[i]
 #     print(sum)
+
+
+# list2 = [0,1,2,3,4,5]
+# # print(list2[::2])  # step of 2 print index of 2 no. ex 2,4 etc
+
+# list2.pop(2)  # remove elemnt at specific index if ther is no index remove last element
+
+# # del delete specific index or entire list
+
+# del list2[2]
+
+# # clear()  empty the list  => []
+# list2.clear()
+# print(list2)
+
+
+
+# numbers = [1,2,3,4,5,5,6,7,8,9, 10]
+# # print(f'List : {numbers}')
+
+# fruits = ["apple", "banana", "cherry", "mango", "orange"]
+
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[-1])
+
+# nums = [10,20,30,40]
+# nums[2] = 25
+# nums[1] = 15
+# nums.append(60)
+# print(nums)
+
+# Remove Elements
+
+# items = ["pen", "pencil", "eraser", "sharpener", "ruler"]
+
+# # items.remove("eraser")
+# # items.pop()
+# del items[1]
+# print(items)
+
+# Check Membership
+# Write a program to check if "grape" is in the list below:
+
+fruits = ["apple", "banana", "cherry", "mango", "orange"]
+
+print( "grape" in fruits)

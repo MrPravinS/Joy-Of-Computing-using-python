@@ -81,6 +81,18 @@ sum = 0
 # Check Membership
 # Write a program to check if "grape" is in the list below:
 
-fruits = ["apple", "banana", "cherry", "mango", "orange"]
+# fruits = ["apple", "banana", "cherry", "mango", "orange"]
 
-print( "grape" in fruits)
+# print( "grape" in fruits)
+
+
+import random
+number = random.randint(1,10)
+guess = 0
+
+while guess != number:
+    guess = int(input("Guess a number between 1 and 10"))
+    if guess == number:
+        print("You got it")
+    else:
+        print("Nope , try again")

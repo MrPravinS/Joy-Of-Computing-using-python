@@ -85,14 +85,36 @@ sum = 0
 
 # print( "grape" in fruits)
 
-
+import dis
 import random
 number = random.randint(1,10)
 guess = 0
 
-while guess != number:
-    guess = int(input("Guess a number between 1 and 10"))
+def play_GuessingGame():
+    while guess != number:
+       guess = int(input("Guess a number between 1 and 10"))
     if guess == number:
         print("You got it")
     else:
         print("Nope , try again")
+
+# dis.dis(play_GuessingGame)
+
+# fruits = ["Apple","Banana","cherry"]
+# # 
+# for i in range(len(fruits)):
+#     print(f"I like {i} : {fruits[i]}")
+
+foods = ["dahi","shrikhand","gulab jamun"]
+print(foods)
+# for i in range(3):
+#     food = input(f"Tell me your favourite food #{i + 1}")
+#     foods.append(food)
+
+# print("\nYour favourite food:")
+# for i in range(len(foods)):
+#     print(f"{i + 1}.{foods[i]}")
+
+# foods.remove("dahi")
+foods.sort(reverse=True)
+print(foods)

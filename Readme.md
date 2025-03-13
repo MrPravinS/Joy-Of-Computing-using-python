@@ -1,3 +1,6 @@
+# Type Casting 
+ - Type casting is technique to  convert one data type to another
+ int to str, str to int and int to bool
 # Mutable and Immutable
 
 ## Immutable 

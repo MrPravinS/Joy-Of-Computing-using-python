@@ -41,10 +41,57 @@ print(result)"""
 
 # Otherwise, apply a 5% discount.
 
-price = float(input("Price of the product"))
+"""price = float(input("Price of the product"))
 
 discountsForTen = (10 / 100) * price
 disCountForFive = (5/100) * price
 
 discount = discountsForTen if price > 100 else disCountForFive
-print(discount)
+print(discount)"""
+
+# User Role Assigner
+# Write a program that assigns a user role based on their age:
+# If the age is less than 18, assign "Minor".
+# If the age is between 18 and 65, assign "Adult".
+# If the age is greater than 65, assign "Senior".
+"""
+age = int(input("Enter Your Age"))
+
+roleAssign = "Minor" if age < 18 else "Adult" if age >= 18 and age <= 65 else "Senior"
+
+print(roleAssign)
+"""
+
+# Password Strength Checker
+# Use the ternary operator to check the strength of a password:
+# If the password length is greater than 8, print "Strong".
+# Otherwise, print "Weak".
+
+"""password = input("Enter your Password")
+
+strengthCheaker = "Strong" if len(password) >= 8 else "Weak"
+print(strengthCheaker)"""
+
+
+# Temperature Checker
+# Write a program that uses the ternary operator to check the temperature:
+# If the temperature is greater than 30, print "Hot".
+# If the temperature is between 20 and 30, print "Warm".
+# Otherwise, print "Cold".
+
+"""temperature = float(input("Enter temperature"))
+
+checkTemp = "Hot" if temperature > 30 else "Warm" if temperature >= 20 and temperature <= 30 else "Cold"
+
+print(checkTemp)"""
+
+
+# Ternary in a Loop
+# Write a loop that iterates through a list of numbers and uses the ternary operator to print "Even" or "Odd" for each number.
+
+"""newList = (10,2,3,4,8,6)
+
+for i in newList:
+    # print(i)
+     evenOdd = "even" if i % 2 == 0 else "Odd"
+     print(evenOdd)"""

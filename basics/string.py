@@ -76,5 +76,16 @@ print(text.swapcase())  #swap uppercse to lower case vice versa
 
 # 1️⃣4️⃣ Remove all vowels from the given string.
 
-text = "Hello, how are you"
-print(text.re)
+"""text = "Hello, how are you"
+print(text.re)"""
+
+# string = [1,2,3,4,5,6,7]
+# print(string[::3])
+
+# format specifier
+
+prince1 = 1.234
+prince2 = -345.543
+prince3 = 62.444
+
+print(prince1)

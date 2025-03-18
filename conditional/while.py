@@ -55,5 +55,40 @@ print(f"Temp : {temp:^.1f}")"""
 # Take a total budget (e.g., 12345.67) and print it with thousand separators and 2 decimal places.
 # Example: "Budget: $12,345.67"
 
-budget = float(input("Enter your Budget"))
-print(f"Budget: {budget:2,}")
+"""budget = float(input("Enter your Budget"))
+print(f"Budget: {budget:2,}")"""
+
+"""i = 1
+while i <= 5:
+    print("Hello")
+    if i == 2:
+        break
+    i+=1
+print("end")"""
+
+"""i = 1
+while i <= 5:
+    if i == 2:
+        continue
+    i+=1
+    print(f"hello {i}")
+print("end")"""
+
+
+# Compound Interest Calculator
+
+"""
+A=Px(1+r/n) ^ n * t
+
+
+Where:
+A = Final Amount (Total amount after interest)
+P = Principal (Initial amount)
+r = Annual interest rate (in decimal, e.g., 10% = 0.10)
+n = Number of times interest is compounded per year
+t = Time in years"""
+
+# Compound Interest (CI) = A - P
+
+
+

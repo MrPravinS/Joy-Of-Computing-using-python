@@ -106,6 +106,7 @@ def removeDuplicates(nums):
             if nums[i] != nums[i - 1]:
                 nums[k] = nums[i]
                 k+=1
+                print(nums[k])
 
         return k
 print(removeDuplicates([1,1,2]))

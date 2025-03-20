@@ -92,3 +92,28 @@ t = Time in years"""
 
 
 
+# make a shopping cart
+
+foods = []
+prices = []
+total = 0
+
+while True:
+    food = input("Buy Food (q for quit): ")
+    if food == "q":
+        break
+    else:
+        price = float(input("Enter price of specific food: "))
+        foods.append(food)
+        prices.append(price)
+
+print("---------Your Cart-------")
+for food in foods:
+    print (f"{food}",end=" ")
+
+
+for money in prices:
+    total += money
+print(f"Total price is : ${total}")
+
+

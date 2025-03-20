@@ -94,26 +94,37 @@ t = Time in years"""
 
 # make a shopping cart
 
-foods = []
-prices = []
-total = 0
+# foods = []
+# prices = []
+# total = 0
 
-while True:
-    food = input("Buy Food (q for quit): ")
-    if food == "q":
-        break
-    else:
-        price = float(input("Enter price of specific food: "))
-        foods.append(food)
-        prices.append(price)
+# while True:
+#     food = input("Buy Food (q for quit): ")
+#     if food == "q":
+#         break
+#     else:
+#         price = float(input("Enter price of specific food: "))
+#         foods.append(food)
+#         prices.append(price)
 
-print("---------Your Cart-------")
-for food in foods:
-    print (f"{food}",end=" ")
-
-
-for money in prices:
-    total += money
-print(f"Total price is : ${total}")
+# print("---------Your Cart-------")
+# for food in foods:
+#     print (f"{food}",end=" ")
 
 
+# for money in prices:
+#     total += money
+# print(f"Total price is : ${total}")
+
+def moveZeros(nums):
+    count = 0
+    for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[count] = nums[i]
+                count+=1
+    while count < len(nums):
+            nums[count] = 0
+            count+=1
+    return nums
+nums = [1,2,0,4,3,0,5,0]
+print(moveZeros(nums))
